@@ -1,12 +1,6 @@
 # Login System API
 
-Documentação da API de sistema de login com autenticação JWT.
-
-## Versão
-1.0.0
-
-## Servidor
-- **URL**: `http://localhost:5000`
+Documentação da API de sistema de login com autenticação JWT, segurança de senha utilizando hash com bcrypt e persistência de dados com mongoDB.
 
 ## Endpoints
 
