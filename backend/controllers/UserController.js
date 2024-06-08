@@ -53,7 +53,7 @@ module.exports = class UserController {
         // Check if the confirmation password is equal to password
         if (password !== confirmpassword) {
             res.status(422).json({ 
-                message: 'Senham não conferem.' 
+                message: 'Senhas não conferem.' 
             })
             return
         }
